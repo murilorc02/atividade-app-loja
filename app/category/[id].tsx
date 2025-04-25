@@ -1,7 +1,6 @@
 import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { data } from '../../data';
-import { Product } from '../../types/product';
 
 export default function CategoryPage() {
   const { id } = useLocalSearchParams();
